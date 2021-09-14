@@ -9,10 +9,10 @@
     margin-right: 25px;
 }
 .inner {
-    border: 1px solid red;
+    border: none;
 }
 .outer {
-    border: 1px solid red;
+    border: none;
     width: 100%;
     display: flex;
 }
@@ -31,7 +31,7 @@ li a {
     color: #f9faf8;
     padding: 14px 16px;
     text-decoration: none;
-    border: 1px solid red;
+    border: none;
 }
 .right-stuff {
     width:100%;
@@ -87,4 +87,74 @@ p {
     width:100%;
     display: flex;
     justify-content:space-around;
+}
+.img-4 {
+    width: 250px;
+    height: 250px;
+    background-color: gray;
+}
+.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 270px;
+}
+.caption {
+    display: block;
+}
+div.outer.center-stuff {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+img.img-4 {
+    border: 5px solid #3882f6;
+    border-radius: 5px;
+}
+.section-3 {
+    background-color: gainsboro;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.bold-quote {
+    font-weight: bold;
+    font-style: unset;
+}
+div.inner.center-stuff {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+div.inner.bold-quote {
+    margin-top: 100px;
+    margin-right: 25px;
+}
+.call-header {
+    font-size: 24px;
+}
+.call-box {
+    background-color: #3882f6;
+}
+div.inner.call-box {
+    color: white;
+    border-radius: 5px;
+}
+.call-text {
+    margin-right: 500px;
+}
+h1.call-header.call-text {
+    margin-top: 25px;
+}
+.call-button {
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-left: 440px;
+    margin-bottom: 15px;
+}
+.footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+.footer-p {
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
